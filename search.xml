@@ -2,8 +2,8 @@
 <search>
   <entry>
     <title>10.22日报</title>
-    <url>/blog/2019/10/22/10-22%E6%97%A5%E6%8A%A5/</url>
-    <content><![CDATA[<p>今天主要学习了使用hexo搭建博客以及github上传的内容，前边的准备工作还是比较简单的；<br>首先就是准备github账号并创建一个仓库，然后就配置一个SSH密钥，以便文件加密；接下来<br>就是使用hexo来搭建自己的博客了，第一步就是需要安装hexo，可以通过终端安装也可通过<br>网站安装，同时还需要安装node.js和npm，安装成功后自行创建一个新的文件夹（存放代码），<br>并在终端进行hexo初始化，hexo会自动下载东西到此文件夹内，然后在终端进行hexo generate<br>操作，通过hexo server进行本地查看，此时会生成一个本地服务的网址，此网址就是你的博客<br>框架，确定没有问题后，ctrl+c停止服务，通过hexo deploy将文件上传到github上，上传成功<br>后，就可通过username.github.io查看属于你的博客。hexo deploy上传文件时，需要在_config.yml<br>配置相应的参数，写法如下：<br>deploy:<br>  type: git<br>  repository: <a href="mailto:git@github.com">git@github.com</a>:liuxianan/liuxianan.github.io.git<br>  branch: master<br>ps：冒号后边需要加空格！！！否则无法上传成功<br>有了框架以后，可以按照自己的不同喜好进行修改主题样式，内容修改主要在根目录下_config.yml<br>和主题目录下_config.yml进行修改。</p>
+    <url>/2019/10/22/10-22%E6%97%A5%E6%8A%A5/</url>
+    <content><![CDATA[<p>今天主要学习了使用hexo搭建博客以及github上传的内容，前边的准备工作还是比较简单的；<br>首先就是准备github账号并创建一个仓库，然后就配置一个SSH密钥，以便文件加密；接下来<br>就是使用hexo来搭建自己的博客了，第一步就是需要安装hexo，可以通过终端安装也可通过<br>网站安装，同时还需要安装node.js和npm，安装成功后自行创建一个新的文件夹（存放代码），<br>并在终端进行hexo初始化，hexo会自动下载东西到此文件夹内，然后在终端进行hexo generate<br>操作，通过hexo server进行本地查看，此时会生成一个本地服务的网址，此网址就是你的博客<br>框架，确定没有问题后，ctrl+c停止服务，通过hexo deploy将文件上传到github上，上传成功<br>后，就可通过username.github.io查看属于你的博客。hexo deploy上传文件时，需要在_config.yml<br>配置相应的参数，写法如下：<br>deploy:<br>  type: git<br>  repository: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:liuxianan/liuxianan.github.io.git<br>  branch: master<br>ps：冒号后边需要加空格！！！否则无法上传成功<br>有了框架以后，可以按照自己的不同喜好进行修改主题样式，内容修改主要在根目录下_config.yml<br>和主题目录下_config.yml进行修改。</p>
 ]]></content>
       <tags>
         <tag>学习</tag>
@@ -11,8 +11,8 @@
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/blog/2019/10/22/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+    <url>/2019/10/22/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
